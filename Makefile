@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest --nbval Chapter7_data_science.ipynb
+	python -m pytest --nbval data_science.ipynb
 
 format:
 	black *.py
