@@ -19,7 +19,4 @@ jobs:
         - name: Test with pytest
           run: |
             make test
-        - name: Format code
-          run: |
-            make format
     
