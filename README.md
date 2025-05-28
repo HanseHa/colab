@@ -4,4 +4,6 @@
 # my nootbook
 
 * [Run my colab notebook](https://colab.research.google.com/drive/1-dyzrSow9eEWVdQvWjz65za9-S65Tcln?usp=sharing)
+* [Run my colab notebook](https://colab.research.google.com/drive/1-dyzrSow9eEWVdQvWjz65za9-S65Tcln#scrollTo=o0NDvH7Y5Txs)
+* 
 
