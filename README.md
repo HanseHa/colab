@@ -4,4 +4,4 @@
 # my nootbook
 
 * [Run my colab notebook](https://colab.research.google.com/github/HanseHa/colab/blob/main/data_science.ipynb)
-
+* [Run my colab notebook](https://colab.research.google.com/github/HanseHa/colab/blob/main/Chapter7_data_science.ipynb)
