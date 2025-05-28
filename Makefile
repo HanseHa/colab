@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C data_science.ipynb
+	pylint --disable=R,C
 
 all: install lint test format
