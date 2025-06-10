@@ -4,6 +4,7 @@ install:
 
 test:
 	python -m pytest --nbval data_science.ipynb
+	python -m pytest -vv test_*.py
 
 format:
 	black *.py
