@@ -19,4 +19,4 @@ def cli(name, length):
 
 
 if __name__ == "__main__":
-    cli()
+    cli(name="Microsoft", length=2)
