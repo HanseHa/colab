@@ -9,3 +9,6 @@ flask
 requests
 wikipedia
 ipython
+uvicorn
+pydantic
+fastapi
