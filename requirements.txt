@@ -12,3 +12,4 @@ ipython
 uvicorn
 pydantic
 fastapi
+fire
