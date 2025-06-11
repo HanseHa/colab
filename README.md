@@ -1,9 +1,38 @@
-# this is my first project syncing github with colab
+# functions-from-zero
+live training
+
+[![Python application test with Github Actions](https://github.com/noahgift/functions-from-zero/actions/workflows/main.yml/badge.svg)](https://github.com/noahgift/functions-from-zero/actions/workflows/main.yml)
 
 
-# my nootbook
+### To call Microservice 
 
-* [Run my colab test notebook](https://colab.research.google.com/github/HanseHa/colab/blob/main/data_science.ipynb)
-* [Run my colab data science example notebook](https://colab.research.google.com/github/HanseHa/colab/blob/main/Chapter7_data_science.ipynb)
+something like this
+```bash
+curl -X 'POST' \
+  'https://noahgift-functions-from-zero-r7g59wcxx6x-8080.githubpreview.dev/wiki' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "Microsoft"
+}'
+```
 
-# included make file and gitgub actions for it
+### Build container
+
+`docker build .`
+`docker image ls`
+
+### Run container
+
+something like this
+
+`docker run -p 127.0.0.1:8080:8080 a81ce4f35866`
+
+### Invoke POST request
+
+run `invoke.sh`
+
+## References
+
+* [Watch Walkthrough on YouTube](https://youtu.be/KOAdCqpQSI4)
+
